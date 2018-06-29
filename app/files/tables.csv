@@ -1,0 +1,1171 @@
+Table;Value
+Table A;"Residential
+Office
+Retail
+Senior Housing
+Entertainment
+Garden/Low-Rise
+Government Subsidized
+Mid/High-Rise
+Mobile Home/RV Community
+Duplex/Triplex/Fourplex
+Condominiums
+Pent House
+Duplex/Triplex/Fourplex
+Co-Op
+Villa
+Town House
+Rental
+Delaware Statutory Trusts
+Other
+Income
+Residential Land
+Boat Docks / Documinuim
+Apartments
+Student Housing
+Manufactured Housing
+Single Family Rental House
+Assisted Living Residences
+Congregate Senior Housing
+Independent Living
+Nursing Care
+Continuing Care
+Golf Related
+Theatre/Performing Arts
+Amusement Park
+Bowling Alley
+Casino and Gaming Facilities
+Professional Sporting Stadium
+Government Office
+Medical Office
+Business Park (Office)
+R&D (Office)
+Office/Warehouse
+Office Condo
+Hotel
+Motel
+Economy/Limited Service
+Full Service
+Resort / Spa
+Luxury
+Extended Stay
+Flex Space
+Industrial-Business Park
+Industrial Condo
+Manufacturing
+Office Showroom
+R&D
+Self/Mini-Storage Facility
+Truck Terminal/Hub/Transit
+Warehouse
+Distribution Warehouse
+Refrigerated/Cold Storage
+Community Center
+Strip Center
+Neighborhood Center
+Outlet Center
+Power Center
+Regional Center/Mall
+Super Regional Center
+Specialty Center
+Theme/Festival Center
+Anchor
+Restaurant
+Service/Gas Station
+Retail Condo
+Marina
+Special Purpose (Other)
+Religious Facility
+Parking 
+Data Center
+Sculpture
+Exhibition
+Heritage
+Industrial
+Infrastructure
+Academic
+Monuments and Memorials
+Museums and Libraries
+Pavilion
+Public Facilities
+Religious Architecture
+High Rise/ Skyscrapers
+Sports Architecture
+Leed
+Research & Laboratory
+Transit
+High Rise
+Transport & Transportation
+Corporate
+Solar
+Wind
+Data Centres
+Health Care
+Industrial (land)
+Multifamily (land)
+Office (land)
+Residential (land)
+Retail (land)
+Retail-Pad (land)
+Commercial/Other (land)
+Leased Land
+Agribusiness
+Pasture/Ranch
+Timberland
+Cropland"
+Table AA/DD1;"CrowdFunded Projects
+Syndications
+I Invest / Lend alone
+Concierge Service Assisted"
+Table A1;"Sculpture
+Exhibition
+Heritage
+Industrial
+Infrastructure
+Academic
+Monuments and Memorials
+Museums and Libraries
+Pavilion
+Public Facilities
+Religious Architecture
+High Rise/ Skyscrapers
+Sports Architecture
+Leed
+Research & Laboratory
+Transit
+High Rise
+Transport & Transportation
+Corporate
+Solar
+Wind
+Data Centres"
+Table B ;"1031 Exchange Ready
+Development
+Flip
+Restructuring (Corporate)
+Restructuring (Properties or Portfolios)
+Rezoning
+Sale Leaseback
+Lease-Up
+Platform Build/Programmatic
+Public-to-Private Transactions
+Recapitalization
+Renovation/Rehabilitation
+Land Bank
+Forward Sale
+Change of Use/Reposition
+Disposal / Sales
+Acquisition
+Entitle"
+Table AR;"Brick
+Metal
+Stone
+Elevated
+Alum Side
+Block
+Modular
+Pre Fab
+Stucco
+Concreate
+Composite 
+Frame Strucutre
+Balcony
+Greenhouse
+PoolRoom
+Skylight
+Barbecue
+Catwalk
+Fence
+Open Balcony
+Deck
+Tennis Court
+Pool
+Laundry Facility
+Bay 
+Lake
+Ocean
+Creek
+Intercoastal
+Other Water Access
+Dock
+Beach Access
+Private
+Assigned
+valet
+Open
+Deeded
+Guest parking
+Central
+HEatstrip
+Electric
+Solar
+Wind
+Gas
+Radiant
+Other
+Auto Garage Door
+Dishwasher
+Elevator
+Intercom
+Smoke Detecotrs
+Washer
+Dryer
+Microwave
+Bottle gas
+Waste Disposer
+Firealarm
+Refrigerators
+Freezer
+Compactor
+Icemaker
+Coffee Machine
+Other
+WallOven
+EB5
+Tax"
+Table BB;"$
+GBP"
+Table D & W2;"Bankruptcy
+Banking & Finance
+EB5
+Tax
+Workers Compensation
+Title
+Short Sales and Foreclosures
+Permits And Department of Building’s Approvals
+Premises Liability
+Litigation & Appeals
+Mergers & Acquisitions
+Land Use & Zoning
+Landlord-Tenant
+Intellectual Property / Patents
+Housing & Construction Defects
+Formation of LLCs and Trusts
+Foreign Purchasers
+Foreclosure & Alternatives
+Estate Planning / Probate
+Environmental
+Employment
+Debtor-Creditor
+Eminent Domain
+Construction / Conversion
+Cost Segregation
+Insurance
+Contracts
+Securities
+Leases
+Trusts
+Class Actions
+Business Formations
+1031 Tax Deferred Exchanges"
+;
+Table Q2;"Developer
+Sovereign Wealth Fund
+Private Equity Fund
+Private Lender
+Insurance Company
+Investment Bank
+Investment Manager
+Owner-Operator
+High Net Worth Investor
+Hedge Fund
+Fund of Funds
+Family Office
+Fund GP / Fund Manager
+Endowment or Foundation"
+Table Q;"Special Servicer
+Developer
+Sovereign Wealth Fund
+REIT (Public/Private)
+Developer
+Private Equity Fund
+Private Lender
+Insurance Company
+Investment Bank
+Investment Manager
+Owner-Operator
+Pension Fund
+High Net Worth Investor
+Individual Investor
+Institutional Investor
+Hedge Fund
+Government Agency
+Fund of Funds
+Family Office
+Fund GP / Fund Manager
+Endowment or Foundation
+EB5 Program
+Corporate Investor
+Bank"
+Table Q1;"Bank
+CMBS
+Correspondent Lender?
+CRE Crowdfunder
+Credit Union
+Endowment or Foundation
+Finance Company
+Agency Lender
+Investment Bank
+Life Insurance Co.
+Mortgage Banker / Correspondent
+Pension Fund (& Related)
+Private Equity Fund
+Private Lender
+REIT (Public/Private)
+Savings & Loan / Thirft
+SBA (SBA District Offices)"
+Table DD;"Operating Companies
+(DDe) Direct Into  a Project (with Sponsors)
+(DDa) Investment Properties for Sale (Outright Purchases)
+(DDb) Forward Purchases
+(DDc) Funds
+(DDf) With Operating Partners
+Delaware Statutory Trusts"
+Table S;"GP Equity / Common Equity 
+LP Equity / Preferred Equity "
+Table FAE;"Senior Loans / Secured Loans 
+Junior Loans  / Unsecured Loans 
+Mezzanine Loan "
+Table QL;"under $100K
+$100K to $250K
+$250K to $500K
+$500K to $750K
+$750K to $1M
+$1M to $2M
+$2M to $3M
+$3M to $5M
+$5M to $7.5M
+$7.5M to $10M
+$10M to $12.5M
+$12.5M to $15M
+$15M to $20M
+$20M to $25M
+$25M to $30M
+$30M to $40M
+$40M to $50M
+over $50M"
+Table QM;"0 - 3 months
+3 - 6 months
+6 - 12 months
+12 - 18 months
+18 - 24 months
+2 - 3 years
+3 - 5 years
+5 - 7 years
+7 - 10 years
+10 - 15 years
+15 - 20 years
+20 - 25 years
+25 - 30 years
+30 - 35 years
+35 - 40 years
+over 40 years"
+Table QN;"Interest Only
+Partially Amortizing (eg. ""30 due in 10"")
+Fully Amortizing  (eg. ""30 due in 30"")"
+Table FH;"Manager Experience (In years) 
+1 Year Return - iRR%
+3 year return - IRR %
+5 year return"
+Table DD1;"CrowdFunded Projects
+Syndications
+I Invest / Lend alone
+Concierge Service Assisted
+Join RCx Club Prive"
+Table L;"SBA / CDC /504 
+Soft Deposits
+Permanent Loan (3+ year term)
+Land Loan
+Construction Loan
+CMBS/Conduit
+Cash / Hard Money
+Residential Mortgage"
+Table C;"Senior Loan / Secured Loan
+Junior Loan / Unsecured loan
+Mezzanine Loan"
+TABLE KK;" In Process
+Term Sheet in place
+Open to Offers"
+Table L1;"Recourse
+Non Recourse
+Partial-Recourse"
+Table L2;"Fixed Rate
+Floating Rate
+Interest Only Options
+PIK"
+Table R ;"Limited Partner Equity/ Preferred Equity
+General Partner Equity/ Sponsor/ Common Equity"
+Table QD;"0 - 5%
+5 - 7%
+7 - 10%
+10 - 15%
+15 - 20%
+20%+"
+Table QC;"0 - 5%
+5 - 7%
+7 - 10%
+10 - 15%
+15 - 20%
+20%+"
+Table QB;"1x One Year
+2x One Year
+3x One Year
+1x Two Year
+Other"
+Table QA;"0 - 50,000,000
+50,000,000 - 100,000,000
+100,000,000 - 250,000,000
+250,000,000 - 500,000,000
+500,000,000 - 1,000,000,000
+1,000,000,000+"
+Table QE;"25% and under
+26% 30%
+31% to 35%
+36% to 40%
+41% to 45%
+46% to 50%
+51% to 55%
+56% to 60%
+61% to 65%
+66% to 70%
+71% to 75%
+76% to 80%
+81% to 85%
+86% to 90%
+91% to 95%
+Over 95%"
+Table QP;"25% and under
+26% 30%
+31% to 35%
+36% to 40%
+41% to 45%
+46% to 50%
+51% to 55%
+56% to 60%
+61% to 65%
+66% to 70%
+71% to 75%
+76% to 80%
+81% to 85%
+86% to 90%
+91% to 95%
+Over 95%"
+Table QO;"25% and under
+26% 30%
+31% to 35%
+36% to 40%
+41% to 45%
+46% to 50%
+51% to 55%
+56% to 60%
+61% to 65%
+66% to 70%
+71% to 75%
+76% to 80%
+81% to 85%
+86% to 90%
+91% to 95%
+Over 95%"
+Table QF;"< 12 months
+12 - 36 months
+3 - 5 years
+5 - 10 years
+10+ years"
+Table QG;"< 12 months
+12 - 36 months
+3 - 5 years
+5 - 10 years
+10+ years"
+Table QH;"0 - 5%
+5 - 7%
+7 - 10%
+10 - 15%
+15 - 20%
+20%+"
+Table QI;"12 - 36 months
+3 - 5 years
+5 - 10 years
+10+ years"
+Table QJ;"50
+60
+70
+70+"
+Table QQ;"Monthly
+Quarterly
+Bi Anually 
+Anually
+When Possible"
+Table QR;"Schedule
+Guaranteed Minimum Interest (# of Months, etc.)
+Defeasance
+Yield Maintenance"
+Table X;"Title
+Property & Casualty
+Professional Liability
+Errors & Omissions
+Environmental
+Earthquake
+Directors & Officers"
+Table M2;"Years In business
+Number of Professionals"
+Table M1;"Value of Transactions Completed 
+Average Transaction Size
+Number of Transactions Completed "
+Table Z;"English
+Mandarin
+Spanish
+Portuguese
+French
+Arabic
+Hindi
+Russian
+Italian
+German
+Japanese
+Korean
+Turkish
+Dutch
+Wu (Shanghainese)
+Hebrew"
+Table T;"Crowdfunding Technology Provider 
+Crowdfunding Platform
+Crowdfunding Advisor"
+Table J;"Consulting
+Construction Management
+Debt & Structuring Finance
+Project Management
+Research
+Valuations & Appraisals
+Cost Segregation
+Government Relations
+Pension Fund Consultant
+Servicing & Special Servicing
+Loan Modification/Assumption
+Loan Defeasance"
+Table J1;"Tenant Screening and Selection
+Rent collection
+Evictions
+Legal
+Inspections
+Maintenance, Repairs, and Remodeling
+Tenant Move In/Out
+Budget Preparation & Management 
+Lease Agreements
+Vendor management"
+Table J2;"ADA (American Disabilities Act)
+ALTERNATIVE / RENEWABLE ENERGY
+BIM SOFTWARE
+Building Automation
+BUILDING CONTROLS
+BUILDING MAINTENANCE
+Business Continuity planning
+Ceilings, Furniture & Walls
+Cleaning Services
+CODES & REGULATIONS
+DATA CENTERS
+Design & Construction
+DISASTER PREPARATION & RECOVERY
+Doors & Hardware
+EHS: Environment, Health, and Safety
+Elevators
+Emergency Preparedness
+Energy Efficiency
+Equipment Rental & Tools
+EXTERIORS
+Facilities Management
+Fire Safety/Protection
+Flooring
+GREEN BUILDING OPERATIONS
+Grounds Management
+Hardware Inspection & Maintenance
+HVAC
+INTERIORS
+LIFE/FIRE SAFETY
+Lighting
+Maintenance & Operations
+Material Handling
+OFFICE FURNITURE
+Outsourcing
+Paints & Coatings
+Plumbing & Restrooms
+Power & Communication
+PROJECT MANAGEMENT
+Roofing
+Security
+SECURITY
+Software
+Space Allocation and Changes
+Space Management and Migration
+SUSTAINABILITY / RESILIENCE
+Transportation
+Tenant Screening and Selection
+Rent collection
+Evictions
+Legal
+Inspections
+Maintenance, Repairs, and Remodeling
+Tenant Move In/Out
+Budget Preparation & Management 
+Lease Agreements
+Vendor management"
+Table G;"Placement Agent
+Residential Agent / Broker
+Tenant Representative 
+Commercial
+Residential
+Agency / Landlord Leasing
+Investment Sales
+Debt / Equity Financing
+Advisory
+Corporate Dispositions
+Commercial Broker
+Investment Bank"
+Table FF;"Fee Developer
+Fund General Partner
+Developer
+Deal Sponsor
+Operating partner
+Owner / Operator"
+Table U;"Corporate Owner
+Government
+Private Owner
+Property/Facilities Manager
+REIT
+Developers / Sponsors
+Fund GP's"
+Table UA;"Corporate
+Government
+Private"
+Table E;"Core
+Core Plus
+Value Add
+Opportunistic
+New Construction
+Distressed
+Secondaries
+Debt"
+Table F;"Concept
+In DD
+LOI
+Owned
+Permitted
+Plans Approved/Entitled
+Pursuit
+Ready for Purchase
+Under Construction
+Under Contract"
+Table HH;"Certified
+Silver 
+Gold 
+Platinum"
+Table K;"Class A
+Class B
+Class C"
+Table A1;"Golf Properties
+Luxury Homes
+Condominuims
+New homes
+Resort & Second Homes
+Retirement Properties
+Vacation Homes
+New Construction
+New Projects
+Investment Properties
+Ocean Front Properties
+Waterfront properties
+International Buyers
+Rentals
+Leasing
+Property Management
+Other"
+Table I;"24-Hour Access
+24-Hour Security
+Administrative Support
+Air Conditioning
+AV Equipment Conference Facilities
+Custom Fit-Out
+Bike Racks
+Bikes Allowed
+Boardroom
+Break Areas
+Broadband Internet
+Business Lounge
+Business Park Location
+Café /Restaurant On-Site
+Car Parking
+CAT 5/5e/6 Cabling
+Catering
+City/Town Center
+Close To other public transportation
+Common Bathrooms
+Common Kitchen
+Conference Space
+Day Care
+Dedicated Fax Number
+Dedicated Phone Number
+Disabled Facilities (DDA/ASA Compliant)
+Free Parking
+Furnished Offices
+High Ceilings
+IT Support
+Kitchen Facility
+Lift/Elevator
+Loading Docks
+Lobby Attendant
+Lounge Area
+Luxury Offices
+Open-Plan Offices
+Pet Friendly
+Postal Facilities/Mail Handling
+Power Backup Support
+Raised Floors
+Ready to Move In
+Reception Area
+Reception Services
+Recycling Facilities
+Secretarial Services
+Server Room
+Shared Conference Room(s)
+Shared Reception
+Shared Space
+Showers
+Storage Area
+Suspended Ceilings
+Unfurnished
+Vending Machines
+Video Conferencing
+Virtual Office Services
+VOIP Phone System
+VPN
+WC (Separate Male/Female bathroom)
+Workshop Space"
+Table FB;"Irrigation
+City Water
+Well
+Sewer
+Septic
+Telephone
+Cable
+Gas
+Oil
+Geo Thermal
+Well Needed
+Septic Needed"
+Table JJF;"Distressed
+Fully Leased
+Fully Marketed
+Off Market
+Partially Leased
+Permitted
+Plans Approved / Entitled
+Ready for Purchase
+REO
+Under Construction
+Vacant
+Stabilized "
+Table H;"Gross
+Full Service Gross
+Modified Gross
+Triple Net
+Double Net
+Single Net
+Modified Net"
+TABLE HA;"Pre Leased
+Leased"
+Table HB;"Single
+Multiple"
+Table QS;"Owner User
+Investor (Non-Owner User)"
+Table FC;"Paved
+Dirt/Gravel
+City
+County
+Easement
+Interstate
+US Hwy
+Private Road
+State"
+Table FD;"Rolling
+Level
+Sloped
+Steep
+Bottomland
+Flood Plain"
+Table FA;"In Due Diligence
+Letter Of Intent Submitted
+Owned by Us
+We are In Pursuit
+Under Contract / Locked Up
+Under Consideration / Underwriting"
+Table FE;"dollars per sf per year
+dollars per sm per year
+dollars per acre per year
+dollars per hectare per year
+dollars per year
+dollars pe sf per month
+dollars per sm per month
+dollars per acre per month
+dollars per hectare per month
+dollars per month"
+Table FM;"0 - 100,000
+100,000 - 500,000
+500,000 - 1,000,000
+1,000,000 - 2,000,000
+2,000,000 - 5,000,000
+5,000,000 - 10,000,000
+10,000,000 - 25,000,000
+25,000,000 - 50,000,000
+50,000,000+ "
+Table FN;"0 - 500,000
+500,000 - 1,000,000
+1,000,000 - 2,000,000
+2,000,000 - 5,000,000
+5,000,000 - 10,000,000
+10,000,000 - 25,000,000
+25,000,000+ "
+Table FO;"0 - 100,000
+100,000 - 500,000
+500,000 - 1,000,000
+1,000,000 - 2,000,000
+2,000,000 - 5,000,000
+5,000,000 - 10,000,000
+10,000,000 - 25,000,000
+25,000,000 - 50,000,000
+50,000,000+ "
+Table FP;"0 - 10
+10 - 20
+20 - 30
+30+ "
+Table QT;"Private Equity: Equity Fund
+Private Equity: Debt Fund
+Hedge Fund
+Fund of Funds"
+Table FQ;"0 - 3
+4 - 5
+5 - 6
+6 - 7
+7 - 8
+8 - 9
+9 - 10
+10 - 11
+11 - 12
+12 - 13
+13 - 14
+14 - 15
+15+"
+Table FAA;"Under 1 acre
+1 - 2 acres
+2 - 5 acres
+5 - 10 acres
+10 - 20 acres
+20 - 50 acres
+50 - 100 acres
+100+ acres"
+Table FAB;"0 - 1,000 SF
+1,000 SF - 2,000 SF
+2,000 SF - 5,000 SF
+5,000 SF - 10,000 SF
+10,000 SF - 20,000 SF
+20,000 SF - 50,000 SF
+50,000 SF - 100,000 SF
+100,000+ SF"
+Table FR;"0 - 500,000
+500,000 - 1,000,000
+1,000,000 - 5,000,000
+5,000,000 - 10,000,000
+10,000,000 - 25,000,000
+25,000,000 - 50,000,000
+50,000,000 - 100,000,000
+100,000,000 - 200,000,000
+200,000,000+"
+Table FS;"0 - 500,000
+500,000 - 1,000,000
+1,000,000 - 5,000,000
+5,000,000 - 10,000,000
+10,000,000 - 25,000,000
+25,000,000 - 50,000,000
+50,000,000 - 100,000,000
+100,000,000 - 200,000,000
+200,000,000+"
+Table FT;"0 - 3
+4 - 5
+5 - 6
+6 - 7
+7 - 8
+8+"
+Table FU;"0 - 3
+4 - 5
+5 - 6
+6 - 7
+7 - 8
+8+"
+Table FV;"Retail
+Office
+Industrial 
+Medical
+Flex"
+Table FW;"Sublet
+Direct"
+Table FX;"Sales
+Leases"
+Table FY;"ALC
+CCIM
+SIOR
+CPM
+TRC
+CIPS
+CFP
+MBA"
+Table V1;"Architect
+Urban Design + Planning
+Structural + Civil Engineering
+Renovation + Restoration
+Sustainable Design
+Program Management
+Project Management
+Planning + Urban Design
+Product Design
+On-Site Services
+Lighting Design
+Landscape Architecture
+Interior Design
+Design-Build
+Consulting
+Construction Management
+MEP
+Workplace Consultancy
+Sustainability
+Design Support
+Acoustic
+Environmental Engineering
+Civil Engineering
+Structural Engineering
+Transition Services"
+Table V2;"Building Information Modeling
+Canal design & Permitting
+Construction Management
+Commissioning
+GIS Services
+Expert Witness
+Construction, Site and BMP Inspections
+Hydrology & Hydraulics
+Green Building & LEED Consulting
+Land Surveying
+Inspections
+Land Development
+Laser Scanning
+Roof Inspection
+Retrofits to Existing Properties
+Site Design and Planning
+Transportation & Traffic Engineering
+Solid Waste Facilities
+Utility Design and Permitting
+Utility Engineering
+Water & Drainage
+Emergency Power Systems
+Lighting
+Cogeneration
+Arc Flash Hazard Analysis
+Load Analysis and Short Circuit Analysis
+Fire Alarm And Evacuation Systems
+PA and Sound Systems
+Power Factor Correction
+Systems Commissioning
+On-Site Generation
+Network And Data Systems
+Telephone And Intercommunication Systems
+Uninterruptible Power Supply (Ups)
+Security/CCTV/Access Control
+Protective Relaying and Coordination"
+Table V3;"Commercial Construction
+Residential Construction
+Commissioning and Start-up Services
+Construction Management
+Module and Pipe Fabrication
+Segmented Construction (Mechanical, E/I)
+Design-Build
+Design-Build-Operate-Maintain
+Modular Construction
+Demolition
+Decomissioning & Closure
+Safety
+Sustainability & Environment
+MEP Co-Ordination
+Facilities management"
+Table Y & EE;"Bidding
+Construction
+Design
+Planning
+Post Construction
+Pre-Construction"
+Table Y;"Bidding
+Construction
+Design
+Planning
+Post Construction
+Pre-Construction"
+Table Po;"Property For lease
+Property For Sale
+Development Property
+Design Build Engineering
+Professional Services
+Brokers / Advisors
+Insurance
+Loan Post
+Fund Post
+Equity Post
+CrowdFunding"
+Table P;"Sponsor Developer
+Insurance
+Crowdfunders
+Professional Service Providers
+Brokers & Advisors
+Fund
+Design Build Engineering
+Investor / Lenders
+Owners Operators
+Residential Broker"
+Table PD;"Sponsor Developer
+Insurance
+Crowdfunders
+Professional Service Providers
+Brokerage
+Advisors
+Fund
+Design & Architecture 
+Build
+Engineering
+Investor
+Lenders
+Owners Operators
+Other"
+Table R ;"Professional Service
+Broker / Advisor
+D,B & E
+Loan Requirement
+Need Space 
+Space for Lease
+Insurance
+Operating partner
+CrowdFunder
+Sell A property
+Buy A property
+Owner Operator
+Equity Requirement
+Developer / Sponsor
+JV partner
+Networking"
+Table Rcs;"Club Prive
+Concierge 
+Service Call Please
+Self Syndication"
+Table PV;"Profile complete indicator
+Profile / Posting Lighthouse Status
+Syndication
+Lighthosue Status
+Ratings
+Requirement Lightouse
+Verification
+Privacy
+Logo 
+Name / title"
+Table AT;"Activity Tracer
+Followers
+Views
+Discussion Comments
+NewRatings
+Connections
+Data Room Actiity
+Profile Matches
+Requirement matches
+Syndication participants
+Rating Changes"
+Table QK;"0.01x - 0.50x
+0.51x - 0.75x
+0.76x - 1.00x
+1.01x - 1.25x
+1.26x - 1.50x
+1.51x - 1.75x
+1.76x - 2.00x
+2.01x - 2.25x
+2.26x - 2.50x
+2.51x - 2.75x
+2.76x - 3.00x
+3.01x+"
+Table P1A;"Investor
+Lender
+Developer/Sponsor
+Fund General Partner
+Owner/Operator
+Crowdfunders
+Real Estate Services (take out Property/Facilites)
+Capital Markets Broker / Placement Agents
+Commercial Broker/Agent
+Residential Broker/Agent
+Mortgage Broker
+Facilities & Property Management 
+Architect or Designer
+Engineer
+Builder or Contractor
+Professional Services
+Legal
+Accountant
+Registered Investment Advisor (RIA)
+Public Relations Specialist
+Insurance Provider/Product
+Other"
+Table P1B;"Owner
+Admin
+Editor
+Member"
+Table P1C;"Fund Post
+Project Post
+Property Post"
+Table P1D;"Ghost
+Non-Member
+Member
+Deactivated"
+Table P1G;"Unclaimed
+Claimed
+Deactivated"
+Table P1E;"Public
+Verified < Role Name> ( Roles within P1A)
+Connections"
+Table E1A;"Company 
+Government Agency
+Association"
+Table E1F;"Self-employed
+1-10 employees
+11-50 employees
+51-200 employees
+201-500 employees
+501-1,000 employees 
+1,001-5,000 employees
+5,001-10,000 employees
+10,001+ employees"
+Table P1F;"Raising Equity for a Project (Search for Project)
+Raising Debt for a Project or Looking for Loan (Search for Project
+Raising Equity for a Fund Post (Search for Fund)
+Looking for Developer/Sponsor
+Looking for Fund General Partner
+Looking for Owner/Operator
+Looking for Crowdfunders
+Looking for Real Estate Services
+Looking for Capital Markets Broker / Placement Agents
+Looking for Commercial Broker/Agent
+Looking for Residential Broker/Agent
+Looking for Facilities & Property Management 
+Looking for Mortgage Broker
+Looking for Architect or Designer
+Looking for Engineer
+Looking for Builder or Contractor
+Looking Professional Services 
+Looking for Legal Services
+Looking for Accountant
+Looking for RIA
+Looking for Public Relations Specialist
+Looking for Insurance
+Looking to Buy Property
+Looking to Lease Space
+Looking for Residential Property 
+Lender: Loan Product"

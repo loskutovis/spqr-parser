@@ -1,0 +1,29 @@
+version: '2'
+services:
+    # ============================================================
+    #                       php-fpm
+    # ============================================================
+    php-fpm:
+        container_name: spqr-php-fpm
+        build: ./docker/php-fpm
+        ports:
+            - "9001:9001"
+        volumes:
+            - ./app:/var/www/app:cached
+            - ./docker/logs/symfony:/var/www/app/var/logs:cached
+
+    # ============================================================
+    #                   nginx web server
+    # ============================================================
+    nginx:
+        container_name: spqr-nginx
+        build: ./docker/nginx
+        ports:
+            - "80:80"
+        links:
+            - php-fpm
+        volumes_from:
+            - php-fpm
+        volumes:
+            - ./docker/logs/nginx/:/var/log/nginx:cached
+
