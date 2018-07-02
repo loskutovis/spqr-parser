@@ -1,5 +1,4 @@
 .idea/
-logs/nginx/
-logs/symfony/
+docker/logs
 json
 .env
