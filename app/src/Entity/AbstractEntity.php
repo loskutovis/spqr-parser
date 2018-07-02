@@ -33,6 +33,19 @@ abstract class AbstractEntity
     protected $fileName;
 
     /**
+     * @param AbstractEntity $entity
+     * @param array $entities
+     * @param array|null $fields
+     */
+    protected function addFieldsToEntity(AbstractEntity &$entity, array &$entities, ?array $fields) : void
+    {
+        if (!empty($entity)) {
+            $entity->setFields($fields);
+            $entities[$this->fileName][] = $entity;
+        }
+    }
+
+    /**
      * @return string
      */
     public function getId(): string
@@ -90,34 +103,34 @@ abstract class AbstractEntity
     }
 
     /**
-     * @param $tables
+     * @param $values
      * @return array|null
      */
-    public function fill($values) : ?array {
+    public function fill($values) : ?array
+    {
 
         $entities = [];
         $fields = [];
-        $prevEntityName = '';
+        $entity = null;
 
         $entityContent = CsvParser::parse($this->fileName);
 
         foreach ($entityContent as $entityString) {
-            if ($prevEntityName !== $entityString['Display Name']) {
-                $entity = static::create($entityString);
-            }
-
             if (!empty($entityString['ID'])) {
-                $fields[] = Field::create($entityString, $values);
-            } else {
-                if (!empty($entity)) {
-                    $entity->setFields($fields);
-                    $entities[$this->fileName][] = $entity;
+                if (empty($entity)) {
+                    $entity = static::create($entityString);
                 }
 
-                $prevEntityName = $entityString['Display Name'];
+                $fields[] = Field::create($entityString, $values);
+            } elseif (empty($entityString['Post Name'])) {
+                $this->addFieldsToEntity($entity, $entities, $fields);
+
+                $fields = [];
                 $entity = null;
             }
         }
+
+        $this->addFieldsToEntity($entity, $entities, $fields);
 
         return $entities;
     }
@@ -126,28 +139,30 @@ abstract class AbstractEntity
      * @param array|null $fields
      * @return static|null
      */
-    public static function create(?array $fields) : ?self {
-        if (empty($fields['Display Name'])) {
+    public static function create(?array $fields) : ?self
+    {
+        if (empty($fields['Post Name'])) {
             return null;
         }
 
         $entity = new static();
         $entity->setId($fields['ID'])
-               ->setName($fields['Display Name']);
+               ->setName(trim($fields['Post Name']));
 
         return $entity;
     }
 
     /**
      * @param array|null $response
-     * @return string|null
+     * @return array|null
      */
-    public static function serializeResponse(?array $response) : ?string {
+    public static function normalizeResponse(?array $response) : ?array
+    {
         $encoders = [new JsonEncoder()];
         $normalizers = [new ObjectNormalizer()];
 
         $serializer = new Serializer($normalizers, $encoders);
-        $response = $serializer->serialize($response, 'json');
+        $response = $serializer->normalize($response, 'json');
 
         return $response;
     }

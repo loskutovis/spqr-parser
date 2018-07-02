@@ -139,7 +139,7 @@ Corporate
 Solar
 Wind
 Data Centres"
-Table B ;"1031 Exchange Ready
+Table B;"1031 Exchange Ready
 Development
 Flip
 Restructuring (Corporate)
@@ -610,14 +610,8 @@ Lease Agreements
 Vendor management"
 Table G;"Placement Agent
 Residential Agent / Broker
-Tenant Representative 
-Commercial
-Residential
+Tenant Representative
 Agency / Landlord Leasing
-Investment Sales
-Debt / Equity Financing
-Advisory
-Corporate Dispositions
 Commercial Broker
 Investment Bank"
 Table FF;"Fee Developer
@@ -626,6 +620,14 @@ Developer
 Deal Sponsor
 Operating partner
 Owner / Operator"
+Table G1;"
+Commercial
+Residential"
+Table G2;"
+Investment Sales
+Debt / Equity Financing
+Advisory
+Corporate Dispositions"
 Table U;"Corporate Owner
 Government
 Private Owner

@@ -9,6 +9,21 @@ namespace App\Entity;
  */
 class Field
 {
+    public const ATTACHMENT_TYPE = 'attachment';
+    public const CALCULATED_TYPE = 'calculated';
+    public const CHECKBOX_TYPE = 'checkbox';
+    public const DATE_TYPE = 'date';
+    public const DROPDOWN_TYPE = 'dropdown';
+    public const DROPDOWN_SINGLE_TYPE = 'dropdown single';
+    public const GOOGLE_TYPE = 'google';
+    public const INTEGER_TYPE = 'integer';
+    public const LINK_TYPE = 'link';
+    public const RADIO_BUTTON_TYPE = 'radio button';
+    public const RANGE_TYPE = 'range';
+    public const TEXT_TYPE = 'text';
+    public const URL_TYPE = 'url';
+    public const YEAR_TYPE = 'year';
+
     /**
      * @var string $id
      */
@@ -60,7 +75,7 @@ class Field
 
     /**
      * @param mixed $id
-     * @return Field
+     * @return self
      */
     public function setId(?string $id): self
     {
@@ -71,7 +86,7 @@ class Field
 
     /**
      * @param mixed $name
-     * @return Field
+     * @return self
      */
     public function setName(?string $name): self
     {
@@ -82,7 +97,7 @@ class Field
 
     /**
      * @param mixed $type
-     * @return Field
+     * @return self
      */
     public function setType(?string $type): self
     {
@@ -94,15 +109,29 @@ class Field
     /**
      * @param mixed $values
      * @param array|null $selectedValues
-     * @return Field
+     * @return self
      */
     public function setValues(?string $values, ?array $selectedValues): self
     {
+        $values = trim($values);
         $values = strtolower($values);
         $type = $this->getType();
 
-        if (!empty($selectedValues[$values]) && $values !== '') {
-            $this->values = $selectedValues[$values];
+        if ($type == self::DROPDOWN_TYPE || $type == self::DROPDOWN_SINGLE_TYPE) {
+            if (!empty($selectedValues[$values]) && $values !== '') {
+                $this->values = $selectedValues[$values];
+            } elseif (strpos($values, 'table') === false) {
+                $this->values = explode(PHP_EOL, $values);
+            }
+        } elseif ($type == self::RANGE_TYPE) {
+            $range = explode('-', $values);
+
+            if (!empty($range[0]) && !empty($range[1])) {
+                $this->values = [
+                    'from' => (int) $range[0],
+                    'to' => (int) $range[1]
+                ];
+            }
         }
 
         return $this;
@@ -113,14 +142,15 @@ class Field
      * @param array|null $values
      * @return Field|null
      */
-    public static function create(?array $fields, ?array $values = null) : ?self {
+    public static function create(?array $fields, ?array $values = null) : ?self
+    {
         if (empty($fields['Display Name'])) {
             return null;
         }
 
         $field = new Field();
         $field->setId($fields['ID'])
-              ->setName($fields['Display Name'])
+              ->setName(trim($fields['Display Name']))
               ->setType($fields['Type'])
               ->setValues($fields['Tables'], $values);
 

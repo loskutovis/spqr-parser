@@ -688,10 +688,10 @@ ID;Post Name;Display Name;Type;Tables;Calculated
 3.0683;Looking for Residential Property ;Residence Size (SF) ;range;;
 3.0684;Looking for Residential Property ;Lot Size (Acres);range;;
 3.0685;Looking for Residential Property ;Stories (Range);range;;
-3.0686;Looking for Residential Property ;Garage;range;number (1-100);
-3.0687;Looking for Residential Property ;Rooms (Range);range;number (0-100);
-3.0688;Looking for Residential Property ;Baths (Range);range;number (0-100);
-3.0689;Looking for Residential Property ;Beds (Range);range;number (0-100);
+3.0686;Looking for Residential Property ;Garage;range;1-100;
+3.0687;Looking for Residential Property ;Rooms (Range);range;0-100;
+3.0688;Looking for Residential Property ;Baths (Range);range;0-100;
+3.0689;Looking for Residential Property ;Beds (Range);range;0-100;
 3.0690;Looking for Residential Property ;Building Status;dropdown;table f;
 3.0691;Looking for Residential Property ;;;;
 3.0692;Looking for Residential Property ;;;;

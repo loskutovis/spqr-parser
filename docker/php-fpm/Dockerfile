@@ -39,8 +39,6 @@ ADD symfony.ini /etc/php7/cli/conf.d/
 
 ADD symfony.pool.conf /etc/php7/php-fpm.d/
 
-RUN apk add --update php7-xdebug --repository http://dl-3.alpinelinux.org/alpine/edge/testing/
-
 CMD ["php-fpm7", "-F"]
 
 WORKDIR /var/www/app

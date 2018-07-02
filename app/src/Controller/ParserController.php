@@ -26,12 +26,9 @@ class ParserController extends Controller
     {
         $entity = new Role();
         $response = $entity->fill(Table::get());
-        $response = AbstractEntity::serializeResponse($response);
+        $response = AbstractEntity::normalizeResponse($response);
 
-        $json = new Response($response);
-        $json->headers->set('Content-Type', 'application/json');
-
-        return $json;
+        return new JsonResponse($response);
     }
 
     /**
@@ -41,8 +38,8 @@ class ParserController extends Controller
     {
         $entity = new Requirement();
         $response = $entity->fill(Table::get());
-        $response = AbstractEntity::serializeResponse($response);
+        $response = AbstractEntity::normalizeResponse($response);
 
-        return new JsonResponse($response, 200, [], true);
+        return new JsonResponse($response);
     }
 }
