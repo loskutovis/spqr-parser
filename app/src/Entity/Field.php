@@ -79,7 +79,7 @@ class Field
      */
     public function setId(?string $id): self
     {
-        $this->id = $id;
+        $this->id = trim($id);
 
         return $this;
     }
@@ -90,7 +90,7 @@ class Field
      */
     public function setName(?string $name): self
     {
-        $this->name = $name;
+        $this->name = trim($name);
 
         return $this;
     }
@@ -101,7 +101,7 @@ class Field
      */
     public function setType(?string $type): self
     {
-        $this->type = $type;
+        $this->type = trim($type);
 
         return $this;
     }

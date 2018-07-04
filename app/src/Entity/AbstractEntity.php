@@ -75,7 +75,7 @@ abstract class AbstractEntity
      */
     public function setId(string $id): self
     {
-        $this->id = $id;
+        $this->id = trim($id);
 
         return $this;
     }
@@ -86,7 +86,7 @@ abstract class AbstractEntity
      */
     public function setName(string $name): self
     {
-        $this->name = $name;
+        $this->name = trim($name);
 
         return $this;
     }
@@ -108,7 +108,6 @@ abstract class AbstractEntity
      */
     public function fill($values) : ?array
     {
-
         $entities = [];
         $fields = [];
         $entity = null;
